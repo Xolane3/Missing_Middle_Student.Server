@@ -195,8 +195,6 @@ namespace Missing_Middle_Student.Services.StaffService
                     montly_applicants.Add(month, 0);
                 }
                 Console.WriteLine(montly_applicants);
-
-
             }
             if (months_keys != null && applicants.Count > 1)
             {
