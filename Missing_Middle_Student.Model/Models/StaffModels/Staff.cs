@@ -14,5 +14,7 @@ namespace Missing_Middle_Student.Model.Models.StaffModels
         public string Email { get; set; } = string.Empty;
         public string Contact { get; set; } = string.Empty;
         public string Password { get; set; } = string.Empty;
+
+        public string Role { get; set; } = string.Empty;
     }
 }

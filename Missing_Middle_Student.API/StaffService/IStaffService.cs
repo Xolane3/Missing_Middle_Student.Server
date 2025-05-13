@@ -19,6 +19,8 @@ namespace Missing_Middle_Student.Services.StaffService
       
         public bool LoginTechnician(LoginDTO staff);
         public bool CreateTechnician(StaffDTO tech);
+
+        public Dictionary<string, int> ApplicantInfo();
         public bool CreateAdmin(StaffDTO staff);
        // public bool ProveApplication(Applicant  applicant);
        // public bool RejectApplication(Applicant applicant);

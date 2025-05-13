@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\221661591\\source\\repos\\Missing_Middle_Student.Server\\Missing_Middle_Student.Model\\Missing_Middle_Student.Model.csproj": {}
+    "C:\\Users\\220313514\\Source\\Repos\\Missing_Middle_Student.Server\\Missing_Middle_Student.Model\\Missing_Middle_Student.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\221661591\\source\\repos\\Missing_Middle_Student.Server\\Missing_Middle_Student.Model\\Missing_Middle_Student.Model.csproj": {
+    "C:\\Users\\220313514\\Source\\Repos\\Missing_Middle_Student.Server\\Missing_Middle_Student.Model\\Missing_Middle_Student.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\221661591\\source\\repos\\Missing_Middle_Student.Server\\Missing_Middle_Student.Model\\Missing_Middle_Student.Model.csproj",
+        "projectUniqueName": "C:\\Users\\220313514\\Source\\Repos\\Missing_Middle_Student.Server\\Missing_Middle_Student.Model\\Missing_Middle_Student.Model.csproj",
         "projectName": "Missing_Middle_Student.Model",
-        "projectPath": "C:\\Users\\221661591\\source\\repos\\Missing_Middle_Student.Server\\Missing_Middle_Student.Model\\Missing_Middle_Student.Model.csproj",
-        "packagesPath": "C:\\Users\\221661591\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\221661591\\source\\repos\\Missing_Middle_Student.Server\\Missing_Middle_Student.Model\\obj\\",
+        "projectPath": "C:\\Users\\220313514\\Source\\Repos\\Missing_Middle_Student.Server\\Missing_Middle_Student.Model\\Missing_Middle_Student.Model.csproj",
+        "packagesPath": "C:\\Users\\220313514\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\220313514\\Source\\Repos\\Missing_Middle_Student.Server\\Missing_Middle_Student.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\221661591\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\220313514\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

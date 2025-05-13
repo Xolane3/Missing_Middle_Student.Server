@@ -9,7 +9,8 @@ namespace Missing_Middle_Student.Model.Models
     public struct AdminResponse
     {
         public Dictionary<string, int> Device_Info { get; set; }
-        public string Applicants { get; set; }
+        public Dictionary<string, int> Applicants_Data { get; set; }
+        public Dictionary<string, int> Applicants_Montly_Data { get; set; }
 
 
     }

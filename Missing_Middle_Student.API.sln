@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Missing_Middle_Student.API", "Missing_Middle_Student.API\Missing_Middle_Student.API.csproj", "{AC89D424-8882-44FE-B4E2-A0CDA1E93778}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Missing_Middle_Student.API", "Missing_Middle_Student.API\Missing_Middle_Student.API.csproj", "{AC89D424-8882-44FE-B4E2-A0CDA1E93778}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Missing_Middle_Student.Model", "Missing_Middle_Student.Model\Missing_Middle_Student.Model.csproj", "{98B4F31B-98D9-431D-B000-D6F3F3214A2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Missing_Middle_Student.Model", "Missing_Middle_Student.Model\Missing_Middle_Student.Model.csproj", "{98B4F31B-98D9-431D-B000-D6F3F3214A2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Missing_Middle_Student.Services", "Missing_Middle_Student.Services\Missing_Middle_Student.Services.csproj", "{A4814F2B-F67F-4CFB-B260-54FAB4BDAE6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Missing_Middle_Student.Services", "Missing_Middle_Student.Services\Missing_Middle_Student.Services.csproj", "{A4814F2B-F67F-4CFB-B260-54FAB4BDAE6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

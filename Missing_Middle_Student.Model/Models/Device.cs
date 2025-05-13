@@ -14,6 +14,7 @@ namespace Missing_Middle_Student.Model.Models
         public string Condition { get; set; } = string.Empty;
         public string Brand { get; set; } = string.Empty;
         public string Model { get; set; } = string.Empty;
+        public int StaffId { get; set; } 
         public DateOnly AllowcationDate { get; set; }
 
     }

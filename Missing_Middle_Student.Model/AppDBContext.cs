@@ -14,9 +14,10 @@ namespace Missing_Middle_Student.Model
         public AppDBContext(DbContextOptions<AppDBContext> options):base(options) { }
 
         public DbSet<Staff> Staffs { get; set; }
-        public DbSet<Admin> Admins { get; set; }
-        public DbSet<Technician> Technician { get; set; }
+  
         public DbSet<Device> Devices { get; set; }
+
+        public DbSet<Applicant> Applicants { get; set; }
 
     }
 }
