@@ -22,7 +22,8 @@ namespace Missing_Middle_Student.Services.Studentservices
         }
          public async Task AddApplicantAsync(Applicant applicant)
         {
-           _context.Applicants.Add(applicant);
+            applicant.Password = _passwordHasher.HashPassword(applicant, applicant.Password);
+            _context.Applicants.Add(applicant);
             await _context.SaveChangesAsync();
         }
          public async Task<Applicant> FindApplicationAsync(int id)
