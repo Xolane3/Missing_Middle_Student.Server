@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ICEP Projects\\Netizens\\Missing_Middle_Student.API\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj": {}
+    "C:\\Users\\220313514\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj": {}
   },
   "projects": {
-    "C:\\ICEP Projects\\Netizens\\Missing_Middle_Student.API\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj": {
+    "C:\\Users\\220313514\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ICEP Projects\\Netizens\\Missing_Middle_Student.API\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj",
+        "projectUniqueName": "C:\\Users\\220313514\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj",
         "projectName": "Missing_Middle_Student.Services",
-        "projectPath": "C:\\ICEP Projects\\Netizens\\Missing_Middle_Student.API\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj",
-        "packagesPath": "C:\\Users\\Masedi\\.nuget\\packages\\",
-        "outputPath": "C:\\ICEP Projects\\Netizens\\Missing_Middle_Student.API\\Missing_Middle_Student.Services\\obj\\",
+        "projectPath": "C:\\Users\\220313514\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj",
+        "packagesPath": "C:\\Users\\220313514\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\220313514\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.Services\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Masedi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\220313514\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,8 +39,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -65,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
