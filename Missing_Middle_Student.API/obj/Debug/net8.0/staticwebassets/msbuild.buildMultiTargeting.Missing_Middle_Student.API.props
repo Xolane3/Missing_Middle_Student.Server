@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Missing_Middle_Student.API.props" />
+</Project>

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ICEP Projects\\Netizens\\Missing_Middle_Student.API\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj": {}
+    "C:\\Users\\rosah\\Missing_Middle_Student.Server\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj": {}
   },
   "projects": {
-    "C:\\ICEP Projects\\Netizens\\Missing_Middle_Student.API\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj": {
+    "C:\\Users\\rosah\\Missing_Middle_Student.Server\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ICEP Projects\\Netizens\\Missing_Middle_Student.API\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj",
+        "projectUniqueName": "C:\\Users\\rosah\\Missing_Middle_Student.Server\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj",
         "projectName": "Missing_Middle_Student.Services",
-        "projectPath": "C:\\ICEP Projects\\Netizens\\Missing_Middle_Student.API\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj",
-        "packagesPath": "C:\\Users\\Masedi\\.nuget\\packages\\",
-        "outputPath": "C:\\ICEP Projects\\Netizens\\Missing_Middle_Student.API\\Missing_Middle_Student.Services\\obj\\",
+        "projectPath": "C:\\Users\\rosah\\Missing_Middle_Student.Server\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj",
+        "packagesPath": "C:\\Users\\rosah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rosah\\Missing_Middle_Student.Server\\Missing_Middle_Student.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Masedi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rosah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -49,6 +50,32 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

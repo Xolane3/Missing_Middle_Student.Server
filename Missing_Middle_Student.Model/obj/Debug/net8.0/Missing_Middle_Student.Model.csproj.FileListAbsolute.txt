@@ -1,0 +1,12 @@
+C:\Users\rosah\Missing_Middle_Student.Server\Missing_Middle_Student.Model\bin\Debug\net8.0\Missing_Middle_Student.Model.deps.json
+C:\Users\rosah\Missing_Middle_Student.Server\Missing_Middle_Student.Model\bin\Debug\net8.0\Missing_Middle_Student.Model.dll
+C:\Users\rosah\Missing_Middle_Student.Server\Missing_Middle_Student.Model\bin\Debug\net8.0\Missing_Middle_Student.Model.pdb
+C:\Users\rosah\Missing_Middle_Student.Server\Missing_Middle_Student.Model\obj\Debug\net8.0\Missing_Middle_Student.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rosah\Missing_Middle_Student.Server\Missing_Middle_Student.Model\obj\Debug\net8.0\Missing_Middle_Student.Model.AssemblyInfoInputs.cache
+C:\Users\rosah\Missing_Middle_Student.Server\Missing_Middle_Student.Model\obj\Debug\net8.0\Missing_Middle_Student.Model.AssemblyInfo.cs
+C:\Users\rosah\Missing_Middle_Student.Server\Missing_Middle_Student.Model\obj\Debug\net8.0\Missing_Middle_Student.Model.csproj.CoreCompileInputs.cache
+C:\Users\rosah\Missing_Middle_Student.Server\Missing_Middle_Student.Model\obj\Debug\net8.0\Missing_Middle_Student.Model.sourcelink.json
+C:\Users\rosah\Missing_Middle_Student.Server\Missing_Middle_Student.Model\obj\Debug\net8.0\Missing_Middle_Student.Model.dll
+C:\Users\rosah\Missing_Middle_Student.Server\Missing_Middle_Student.Model\obj\Debug\net8.0\refint\Missing_Middle_Student.Model.dll
+C:\Users\rosah\Missing_Middle_Student.Server\Missing_Middle_Student.Model\obj\Debug\net8.0\Missing_Middle_Student.Model.pdb
+C:\Users\rosah\Missing_Middle_Student.Server\Missing_Middle_Student.Model\obj\Debug\net8.0\ref\Missing_Middle_Student.Model.dll
