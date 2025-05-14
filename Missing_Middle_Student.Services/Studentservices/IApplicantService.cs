@@ -11,5 +11,7 @@ namespace Missing_Middle_Student.Services.Studentservices
     {
         Task AddApplicantAsync(Applicant applicant);
         Task<Applicant> FindApplicationAsync(int id);
+
+        Task<Applicant?> LoginAsync(LoginDTO request);
     }
 }

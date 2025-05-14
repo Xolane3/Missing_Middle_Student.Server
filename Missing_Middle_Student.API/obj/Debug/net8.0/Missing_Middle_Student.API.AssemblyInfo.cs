@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Missing_Middle_Student.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18b8f272f665d0d82484fc4771d19f94c9c45b5b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f7802c327115f335441f4b832e64a3deafc4bd1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Missing_Middle_Student.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Missing_Middle_Student.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
