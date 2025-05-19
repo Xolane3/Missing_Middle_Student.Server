@@ -5821,11 +5821,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< Updated upstream
     "C:\\Users\\221050410\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\220313514\\.nuget\\packages\\": {}
+>>>>>>> Stashed changes
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream
       "projectUniqueName": "C:\\Users\\221050410\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj",
       "projectName": "Missing_Middle_Student.Services",
       "projectPath": "C:\\Users\\221050410\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj",
@@ -5834,6 +5839,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\221050410\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\220313514\\Documents\\Dev\\Missing_Middle_Student.S\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj",
+      "projectName": "Missing_Middle_Student.Services",
+      "projectPath": "C:\\Users\\220313514\\Documents\\Dev\\Missing_Middle_Student.S\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj",
+      "packagesPath": "C:\\Users\\220313514\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\220313514\\Documents\\Dev\\Missing_Middle_Student.S\\Missing_Middle_Student.Services\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\220313514\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> Stashed changes
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

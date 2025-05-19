@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "ev687ywlZqRI9JJyOatYx6ae8As4ZibaeuSewX9Jwu/5LLTNowaQrP1xquSLrKnPCnGjXTSLvmdBLGR/9ZQtFw==",
   "success": true,
   "projectFilePath": "C:\\Users\\221050410\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj",
@@ -112,5 +113,11 @@
     "C:\\Users\\221050410\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\221050410\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
+=======
+  "dgSpecHash": "Ego8OBYFe/Fw/wMnH4YWNPunbQI8ZdJZ55AbQGXJbsu9sDWc8o0JE601jaGaE+aFbvYsdoqcDhcqJIMPC+A7YQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\220313514\\Documents\\Dev\\Missing_Middle_Student.S\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj",
+  "expectedPackageFiles": [],
+>>>>>>> Stashed changes
   "logs": []
 }

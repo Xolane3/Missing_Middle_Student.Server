@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "KR7npUrRGpI+XrPXcvfoMuzh8ldYw3sZK5bQecNZxfrY+Rv/7GDShbT2M+rY2IadoFrXCBLllznMe8vNttQVTw==",
   "success": true,
   "projectFilePath": "C:\\Users\\221050410\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.API\\Missing_Middle_Student.API.csproj",
@@ -117,6 +118,18 @@
     "C:\\Users\\221050410\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
     "C:\\Users\\221050410\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\221050410\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+=======
+  "dgSpecHash": "gMdQyDi3LpPSy882WOTKLcnOrNcQMHAnjJ9kQ8+YsbUte7b/zwVoGM2f/r45MWHzQSA8uhGEXRnsdBcWQ/zqvg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\220313514\\Documents\\Dev\\Missing_Middle_Student.S\\Missing_Middle_Student.API\\Missing_Middle_Student.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\220313514\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\220313514\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
+    "C:\\Users\\220313514\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
+    "C:\\Users\\220313514\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
+    "C:\\Users\\220313514\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
+    "C:\\Users\\220313514\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
+>>>>>>> Stashed changes
   ],
   "logs": []
 }
