@@ -88,6 +88,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Missing_Middle_Student.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Missing_Middle_Student.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Missing_Middle_Student.Model.dll": {}
+        }
       }
     }
   },
@@ -439,32 +449,33 @@
         "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Missing_Middle_Student.Model/1.0.0": {
+      "type": "project",
+      "path": "../Missing_Middle_Student.Model/Missing_Middle_Student.Model.csproj",
+      "msbuildProject": "../Missing_Middle_Student.Model/Missing_Middle_Student.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Missing_Middle_Student.Model >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Masedi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\221808770\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ICEP Projects\\Netizens\\Missing_Middle_Student.API\\Missing_Middle_Student.API\\Missing_Middle_Student.API.csproj",
+      "projectUniqueName": "C:\\Users\\221808770\\AppData\\Local\\GitHubDesktop\\app-3.4.18\\Missing_Middle_Student.Server\\Missing_Middle_Student.API\\Missing_Middle_Student.API.csproj",
       "projectName": "Missing_Middle_Student.API",
-      "projectPath": "C:\\ICEP Projects\\Netizens\\Missing_Middle_Student.API\\Missing_Middle_Student.API\\Missing_Middle_Student.API.csproj",
-      "packagesPath": "C:\\Users\\Masedi\\.nuget\\packages\\",
-      "outputPath": "C:\\ICEP Projects\\Netizens\\Missing_Middle_Student.API\\Missing_Middle_Student.API\\obj\\",
+      "projectPath": "C:\\Users\\221808770\\AppData\\Local\\GitHubDesktop\\app-3.4.18\\Missing_Middle_Student.Server\\Missing_Middle_Student.API\\Missing_Middle_Student.API.csproj",
+      "packagesPath": "C:\\Users\\221808770\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\221808770\\AppData\\Local\\GitHubDesktop\\app-3.4.18\\Missing_Middle_Student.Server\\Missing_Middle_Student.API\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Masedi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\221808770\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -477,7 +488,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\221808770\\AppData\\Local\\GitHubDesktop\\app-3.4.18\\Missing_Middle_Student.Server\\Missing_Middle_Student.Model\\Missing_Middle_Student.Model.csproj": {
+              "projectPath": "C:\\Users\\221808770\\AppData\\Local\\GitHubDesktop\\app-3.4.18\\Missing_Middle_Student.Server\\Missing_Middle_Student.Model\\Missing_Middle_Student.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -489,8 +504,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -520,7 +534,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
