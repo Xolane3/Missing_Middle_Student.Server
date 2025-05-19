@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Missing_Middle_Student.Model")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97c2897d070649ce4d5f7491342cc282b68d0c09")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55a2c7cbdcfcb609b798b187a9792756822b356c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Missing_Middle_Student.Model")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Missing_Middle_Student.Model")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

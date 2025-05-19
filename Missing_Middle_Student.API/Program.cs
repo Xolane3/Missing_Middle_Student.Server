@@ -20,10 +20,11 @@ builder.Services.AddCors(cors =>
 {
     cors.AddPolicy("AllowAll", policy =>
     {
-        policy.AllowAnyHeader()
-        .AllowAnyMethod()
-        .AllowCredentials()
-        .AllowAnyOrigin();
+        policy
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            .AllowCredentials()
+            .SetIsOriginAllowed(_ => true); // Accept all origins explicitly for credentials
     });
 });
 
@@ -45,7 +46,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.MapHub<NotificationsHub>("device/notification/hub");
+
+app.MapHub<NotificationsHub>("device/notification/hub")
+    .RequireCors("AllowAll");
 
 app.UseHttpsRedirection();
 
