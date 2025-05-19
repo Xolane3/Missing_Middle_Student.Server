@@ -12,8 +12,8 @@ using Missing_Middle_Student.Model;
 namespace Missing_Middle_Student.Model.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20250508090452_first")]
-    partial class first
+    [Migration("20250516075226_f1")]
+    partial class f1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,61 @@ namespace Missing_Middle_Student.Model.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("Missing_Middle_Student.Model.Models.Applicant", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<byte[]>("Accademic_record")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<DateTime>("ApplicationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("ApplicationStatus")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Contact")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("DeviceId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("Income")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Reccomendation")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Student_No")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<byte[]>("SupportingDoc")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<string>("staffNumbeer")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Applicants");
+                });
 
             modelBuilder.Entity("Missing_Middle_Student.Model.Models.Device", b =>
                 {
@@ -52,6 +107,13 @@ namespace Missing_Middle_Student.Model.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("SerialNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("StaffId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Status")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -59,6 +121,29 @@ namespace Missing_Middle_Student.Model.Migrations
                     b.HasKey("DeviceId");
 
                     b.ToTable("Devices");
+                });
+
+            modelBuilder.Entity("Missing_Middle_Student.Model.Models.Notification", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateOnly>("CreatedAt")
+                        .HasColumnType("date");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Seen")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Notifications");
                 });
 
             modelBuilder.Entity("Missing_Middle_Student.Model.Models.StaffModels.Staff", b =>
@@ -73,11 +158,6 @@ namespace Missing_Middle_Student.Model.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Discriminator")
-                        .IsRequired()
-                        .HasMaxLength(13)
-                        .HasColumnType("nvarchar(13)");
-
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -90,6 +170,10 @@ namespace Missing_Middle_Student.Model.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Surname")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -97,39 +181,6 @@ namespace Missing_Middle_Student.Model.Migrations
                     b.HasKey("StaffId");
 
                     b.ToTable("Staffs");
-
-                    b.HasDiscriminator().HasValue("Staff");
-
-                    b.UseTphMappingStrategy();
-                });
-
-            modelBuilder.Entity("Missing_Middle_Student.Model.Models.StaffModels.Admin", b =>
-                {
-                    b.HasBaseType("Missing_Middle_Student.Model.Models.StaffModels.Staff");
-
-                    b.Property<int>("ApplicantID")
-                        .HasColumnType("int");
-
-                    b.Property<int>("DeviceID")
-                        .HasColumnType("int");
-
-                    b.HasDiscriminator().HasValue("Admin");
-                });
-
-            modelBuilder.Entity("Missing_Middle_Student.Model.Models.StaffModels.Technician", b =>
-                {
-                    b.HasBaseType("Missing_Middle_Student.Model.Models.StaffModels.Staff");
-
-                    b.Property<int>("DeviceID")
-                        .HasColumnType("int");
-
-                    b.ToTable("Staffs", t =>
-                        {
-                            t.Property("DeviceID")
-                                .HasColumnName("Technician_DeviceID");
-                        });
-
-                    b.HasDiscriminator().HasValue("Technician");
                 });
 #pragma warning restore 612, 618
         }

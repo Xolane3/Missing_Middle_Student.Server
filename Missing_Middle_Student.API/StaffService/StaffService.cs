@@ -172,6 +172,21 @@ namespace Missing_Middle_Student.Services.StaffService
                     
                 
                 };
+                var technician = _context.Staffs.Find(dev.TechnicianId);
+                if (technician != null)
+                {
+                    var notification = new Notification()
+                    {
+
+                        CreatedAt = DateOnly.FromDateTime(DateTime.Now),
+                        Message = $"Device {device.Brand} : {device.Model}({device.SerialNumber}) was  added by {technician.Initails} {technician.Surname}  on {DateOnly.FromDateTime(DateTime.Now)} condition of device is  {device.Condition}",
+                        Seen = false
+
+                    };
+                    var result = _context.Add<Notification>(notification);
+                    _context.SaveChanges();
+                }
+             
                 var res = _context.Add<Device>(device);
                 _context.SaveChanges();
                 return true;

@@ -19,5 +19,7 @@ namespace Missing_Middle_Student.Model
 
         public DbSet<Applicant> Applicants { get; set; }
 
+        public DbSet<Notification> Notifications { get; set; }
+
     }
 }

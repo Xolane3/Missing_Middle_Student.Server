@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Owin.BuilderProperties;
+using Missing_Middle_Student.API.Hubs;
 using Missing_Middle_Student.Model;
 using Missing_Middle_Student.Services.StaffService;
 
@@ -14,9 +16,23 @@ builder.Services.AddDbContext<AppDBContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 builder.Services.AddScoped<IStaffService, StaffService>();
+builder.Services.AddCors(cors =>
+{
+    cors.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyHeader()
+        .AllowAnyMethod()
+        .AllowCredentials()
+        .AllowAnyOrigin();
+    });
+});
+
 builder.Services.AddSwaggerGen();
+builder.Services.AddSignalR();
+
 
 var app = builder.Build();
+app.UseCors("AllowAll");
 using(var scope = app.Services.CreateScope())
 {
     var dbcontext = scope.ServiceProvider.GetRequiredService<AppDBContext>();
@@ -29,6 +45,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.MapHub<NotificationsHub>("device/notification/hub");
 
 app.UseHttpsRedirection();
 
