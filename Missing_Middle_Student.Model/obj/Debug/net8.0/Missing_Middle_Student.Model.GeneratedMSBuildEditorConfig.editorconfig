@@ -16,10 +16,6 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Missing_Middle_Student.Model
-<<<<<<< Updated upstream
-build_property.ProjectDir = C:\Users\221050410\Documents\GitHub\Missing_Middle_Student.Server\Missing_Middle_Student.Model\
-=======
 build_property.ProjectDir = C:\Users\220313514\Documents\Dev\Missing_Middle_Student.S\Missing_Middle_Student.Model\
->>>>>>> Stashed changes
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

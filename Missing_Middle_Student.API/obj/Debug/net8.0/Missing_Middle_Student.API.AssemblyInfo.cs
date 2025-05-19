@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Missing_Middle_Student.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< Updated upstream
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+351b24e982d289ae766d1992e966a1c3ab51c0be")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7df0e2da15886f680be8636b3e41d39061b02239")]
->>>>>>> Stashed changes
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cbebf7220d4b5f6a2bf0e8a9acc50563f53c8fd1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Missing_Middle_Student.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Missing_Middle_Student.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

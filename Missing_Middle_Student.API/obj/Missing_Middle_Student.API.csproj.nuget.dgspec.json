@@ -1,22 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< Updated upstream
-    "C:\\Users\\221050410\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.API\\Missing_Middle_Student.API.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\221050410\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.API\\Missing_Middle_Student.API.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\221050410\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.API\\Missing_Middle_Student.API.csproj",
-        "projectName": "Missing_Middle_Student.API",
-        "projectPath": "C:\\Users\\221050410\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.API\\Missing_Middle_Student.API.csproj",
-        "packagesPath": "C:\\Users\\221050410\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\221050410\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.API\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\221050410\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
     "C:\\Users\\220313514\\Documents\\Dev\\Missing_Middle_Student.S\\Missing_Middle_Student.API\\Missing_Middle_Student.API.csproj": {}
   },
   "projects": {
@@ -31,7 +15,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\220313514\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> Stashed changes
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,11 +28,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\221050410\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.Model\\Missing_Middle_Student.Model.csproj": {
-                "projectPath": "C:\\Users\\221050410\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.Model\\Missing_Middle_Student.Model.csproj"
+              "C:\\Users\\220313514\\Documents\\Dev\\Missing_Middle_Student.S\\Missing_Middle_Student.Model\\Missing_Middle_Student.Model.csproj": {
+                "projectPath": "C:\\Users\\220313514\\Documents\\Dev\\Missing_Middle_Student.S\\Missing_Middle_Student.Model\\Missing_Middle_Student.Model.csproj"
               },
-              "C:\\Users\\221050410\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj": {
-                "projectPath": "C:\\Users\\221050410\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj"
+              "C:\\Users\\220313514\\Documents\\Dev\\Missing_Middle_Student.S\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj": {
+                "projectPath": "C:\\Users\\220313514\\Documents\\Dev\\Missing_Middle_Student.S\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj"
               }
             }
           }
@@ -118,21 +101,20 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
-<<<<<<< Updated upstream
         }
       }
     },
-    "C:\\Users\\221050410\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.Model\\Missing_Middle_Student.Model.csproj": {
+    "C:\\Users\\220313514\\Documents\\Dev\\Missing_Middle_Student.S\\Missing_Middle_Student.Model\\Missing_Middle_Student.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\221050410\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.Model\\Missing_Middle_Student.Model.csproj",
+        "projectUniqueName": "C:\\Users\\220313514\\Documents\\Dev\\Missing_Middle_Student.S\\Missing_Middle_Student.Model\\Missing_Middle_Student.Model.csproj",
         "projectName": "Missing_Middle_Student.Model",
-        "projectPath": "C:\\Users\\221050410\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.Model\\Missing_Middle_Student.Model.csproj",
-        "packagesPath": "C:\\Users\\221050410\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\221050410\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.Model\\obj\\",
+        "projectPath": "C:\\Users\\220313514\\Documents\\Dev\\Missing_Middle_Student.S\\Missing_Middle_Student.Model\\Missing_Middle_Student.Model.csproj",
+        "packagesPath": "C:\\Users\\220313514\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\220313514\\Documents\\Dev\\Missing_Middle_Student.S\\Missing_Middle_Student.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\221050410\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\220313514\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -208,17 +190,17 @@
         }
       }
     },
-    "C:\\Users\\221050410\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj": {
+    "C:\\Users\\220313514\\Documents\\Dev\\Missing_Middle_Student.S\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\221050410\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj",
+        "projectUniqueName": "C:\\Users\\220313514\\Documents\\Dev\\Missing_Middle_Student.S\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj",
         "projectName": "Missing_Middle_Student.Services",
-        "projectPath": "C:\\Users\\221050410\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj",
-        "packagesPath": "C:\\Users\\221050410\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\221050410\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.Services\\obj\\",
+        "projectPath": "C:\\Users\\220313514\\Documents\\Dev\\Missing_Middle_Student.S\\Missing_Middle_Student.Services\\Missing_Middle_Student.Services.csproj",
+        "packagesPath": "C:\\Users\\220313514\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\220313514\\Documents\\Dev\\Missing_Middle_Student.S\\Missing_Middle_Student.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\221050410\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\220313514\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -232,8 +214,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\221050410\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.Model\\Missing_Middle_Student.Model.csproj": {
-                "projectPath": "C:\\Users\\221050410\\Documents\\GitHub\\Missing_Middle_Student.Server\\Missing_Middle_Student.Model\\Missing_Middle_Student.Model.csproj"
+              "C:\\Users\\220313514\\Documents\\Dev\\Missing_Middle_Student.S\\Missing_Middle_Student.Model\\Missing_Middle_Student.Model.csproj": {
+                "projectPath": "C:\\Users\\220313514\\Documents\\Dev\\Missing_Middle_Student.S\\Missing_Middle_Student.Model\\Missing_Middle_Student.Model.csproj"
               }
             }
           }
@@ -295,8 +277,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
-=======
->>>>>>> Stashed changes
         }
       }
     }

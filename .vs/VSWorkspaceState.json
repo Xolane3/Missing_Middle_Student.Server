@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Missing_Middle_Student.Model",
+    "\\Missing_Middle_Student.Model\\Models",
+    "\\Missing_Middle_Student.Services"
   ],
   "SelectedNode": "\\Missing_Middle_Student.API.sln",
   "PreviewInSolutionExplorer": false

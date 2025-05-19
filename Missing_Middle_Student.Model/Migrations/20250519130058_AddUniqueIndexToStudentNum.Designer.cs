@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Missing_Middle_Student.Model.Models;
 
@@ -11,9 +12,11 @@ using Missing_Middle_Student.Model.Models;
 namespace Missing_Middle_Student.Model.Migrations
 {
     [DbContext(typeof(ApplicantDbContext))]
-    partial class ApplicantDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250519130058_AddUniqueIndexToStudentNum")]
+    partial class AddUniqueIndexToStudentNum
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
